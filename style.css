@@ -1,0 +1,34 @@
+body{
+	
+}
+.searchBox {
+	text-align: center;
+	padding: 400px;
+	width: 500px;
+	height: 500px;
+}
+footer{
+    background-color: #333333;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.90;
+}
+footer p, footer h3{
+    color: white;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+ul.social li img{
+    height: 50px;
+
+}
+footer.second{
+    border-top: 1px solid #4D4E50;
+    background-color: #333333;
+    background-height: 50px;
+    text-align: center;
+    opacity: 0.95;
+
+}
