@@ -1,34 +1,55 @@
-body{
-	
+html {
+    overflow: hidden;
+    height: 100%;
+}
+body {
+    height: 100%;
+    overflow: auto;
+}
+h1 {
+    float: right;
+}
+.nav {
+    opacity: 0.99;
+    color: white;
+    list-style: none;
+    padding: 20px 0 20px 0;
+    float: right;
+
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+.Forum {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.Forum > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+
+}
+#logo {
+    float: right;
+    padding: 20px 0 20px 0;
+
 }
 .searchBox {
-	text-align: center;
-	padding: 400px;
-	width: 500px;
-	height: 500px;
+	float: right;
 }
-footer{
-    background-color: #333333;
-    width: 100%;
-    overflow: hidden;
-    opacity: 0.90;
-}
-footer p, footer h3{
-    color: white;
-}
-footer p a{
-    color: white;
-    text-decoration: none;
-}
-ul.social li img{
-    height: 50px;
-
-}
-footer.second{
-    border-top: 1px solid #4D4E50;
-    background-color: #333333;
-    background-height: 50px;
-    text-align: center;
-    opacity: 0.95;
-
+#research{
+    background-color: limegreen;
 }
