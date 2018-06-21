@@ -8,7 +8,7 @@ define(["require", "exports", 'Scripts/MindFusion.Charting'], function (require,
 	
 	var stockChart = new Controls.CandlestickChart(document.getElementById('stockChart'));
 	
-	stockChart.title = "The Big Corporation";
+	stockChart.title = "Apple Inc. (APPL)";
 	stockChart.theme.titleFontSize = 16;
 	
 	stockChart.candlestickWidth = 12;
@@ -18,7 +18,7 @@ define(["require", "exports", 'Scripts/MindFusion.Charting'], function (require,
 	stockChart.xAxisLabelRotationAngle = 30;
 	
 	stockChart.xAxis.minValue = 0;
-	stockChart.xAxis.interval = 1;
+	stockChart.xAxis.interval = 5;
 	stockChart.xAxis.maxValue = 40;
 	stockChart.xAxis.title = "Time";
 	stockChart.yAxis.title = "Price";
