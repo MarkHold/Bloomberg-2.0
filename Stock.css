@@ -1,7 +1,44 @@
 body {
 }
 
+.nav {
+    opacity: 0.99;
+    color: white;
+    list-style: none;
+    padding: 20px 0 20px 0;
+    float: right;
 
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+.Forum {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.Forum > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+
+}
+#logo {
+    float: right;
+    padding: 20px 0 20px 0;
+
+}
 
 /* Add a black background color to the top navigation */
 .topnav {

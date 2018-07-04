@@ -13,30 +13,36 @@
 <body>
 
     <!-- navigation bar -->
-        <a>
-            <img herf="#" id="logo" src="logo.png"></img>
-        </a>
-            <ul class="nav">
+    <nav class="topnav">
 
-                <li><a herf="Apple.html" id="research">Research Guide</a> </li>
-                <li><a herf="#">About us</a> </li>
-                <li><a herf="#">For Investors</a> </li>
-                <li><a herf="#">Blog</a> </li>
-            </ul>
+        <!-- Centered link -->
+        <div class="topnav-centered">
+            <a href="index.html" class="active">Home</a>
+        </div>
 
-        <ul class="Forum">
+        <!-- Left-aligned links (default) -->
+        <a href="#news">Login</a>
+        <a href="#contact">Forum</a>
 
-            <li><a herf="#">Login</a> </li>
-            <li><a herf="#">Forum</a> </li>
-        </ul>
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+            <a href="#search">Search</a>
+            <a href="#search">About Us</a>
+            <a href="#search">For Investors</a>
+            <a href="#about">Blog</a>
+        </div>
+
+    </nav>
 
     <h1>THE FUTURE OF <br>INVESTMENT RESEARCH</h1>
 
 	<!-- search box -->
-	<form class="searchBox">
-		<input type="text" name="text" id="stockName" class="search" placeholder="Stock name">
-		<button type="button" id="searchButton">Search</button>
-	</form>
+    <div class="searchBox">
+        <form class="searchBox">
+            <input type="text" name="text" id="stockName" class="search" placeholder="Stock name">
+            <button type="button" id="searchButton">Search</button>
+        </form>
+    </div>
 
 	<!-- footer
 	<footer>
