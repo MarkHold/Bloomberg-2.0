@@ -1,76 +1,28 @@
-html {
-    overflow: hidden;
-    height: 100%;
-}
 body {
-    height: 100%;
-    overflow: auto;
-}
-h1 {
-    float: right;
-}
-/* Add a black background color to the top navigation */
-.topnav {
-    position: relative;
-    background-color: royalblue;
-    overflow: hidden;
+    background-image: url('2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: White;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: grey;
-    color: white;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    color: white;
-}
-
-/* Centered section inside the top navigation */
-.topnav-centered a {
-    float: none;
+#outPopUp {
     position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    margin: -100px 0 0 -150px;
 }
 
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-    float: right;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
-
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-    .topnav a, .topnav-right {
-        float: none;
-        display: block;
-    }
-
-    .topnav-centered a {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-    }
-}
-
-#research{
-    background-color: limegreen;
-}
-
-.searchBox {
-    margin: 0 auto;
-    width: 500px;
+p {
+    background-color: white;
 }

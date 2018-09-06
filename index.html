@@ -1,54 +1,26 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Stock</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <style type="text/css">
-    </style>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Stock</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <style type="text/css">
+        </style>
 
-</head>
-<body>
-
-    <!-- navigation bar -->
-    <nav class="topnav">
-
-        <!-- Centered link -->
-        <div class="topnav-centered">
-            <a href="index.html" class="active">Home</a>
+    </head>
+    <body background="2.jpg">
+        <!-- search box -->
+        <div id="outPopUp">
+            <form>
+                <input type="text"  name="name" class="search" placeholder="todo" size="40">
+                <button type="submit" id="searchButton">submit</button>
+            </form>
         </div>
+        <footer>
+            <p>©2018 Markus Lykonhold. All Rights Reserved</p>
+       </footer>
 
-        <!-- Left-aligned links (default) -->
-        <a href="#news">Login</a>
-        <a href="#contact">Forum</a>
-
-        <!-- Right-aligned links -->
-        <div class="topnav-right">
-            <a href="#search">Search</a>
-            <a href="#search">About Us</a>
-            <a href="#search">For Investors</a>
-            <a href="#about">Blog</a>
-        </div>
-
-    </nav>
-
-    <h1>THE FUTURE OF <br>INVESTMENT RESEARCH</h1>
-
-	<!-- search box -->
-    <div class="searchBox">
-        <form class="searchBox">
-            <input type="text" name="text" id="stockName" class="search" placeholder="Stock name">
-            <button type="button" id="searchButton">Search</button>
-        </form>
-    </div>
-
-	<!-- footer
-	<footer>
-    	<footer class="second">
-      	  <p>@Copyright - HoldsTechnologies,2016.</p>
-   	</footer>-->
-</body>
-<script type="text/javascript" src="app.js"></script>
+    <script src="app.js"></script>
+    </body>
 </html>

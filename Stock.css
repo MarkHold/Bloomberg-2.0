@@ -1,4 +1,9 @@
 body {
+    background-image: url('2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .nav {
@@ -7,7 +12,6 @@ body {
     list-style: none;
     padding: 20px 0 20px 0;
     float: right;
-
 }
 
 .nav > li {
@@ -43,7 +47,7 @@ body {
 /* Add a black background color to the top navigation */
 .topnav {
     position: relative;
-    background-color: royalblue;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -100,8 +104,13 @@ body {
 
 #companyDescription {
     width: 500px;
+    border-style: double;
+    border-color: white;
 }
 
+p {
+    color: lightgray;
+}
 .main-container {
     float: left;
     position: relative;
@@ -115,4 +124,14 @@ body {
 
 #Ceo {
     float: left;
+    border-style: inset;
+    border-color: black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

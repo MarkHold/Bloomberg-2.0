@@ -9,4 +9,4 @@ var app = function (){
 	}
 }
 
-app()
+app();
