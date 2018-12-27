@@ -16,6 +16,11 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="blog.css" rel="stylesheet">
+
+    <script type="text/javascript" src="common/jquery.min.js"></script>
+    <script type="text/javascript" src="common/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="Scripts/config.js"></script>
+    <script data-main="sectors" src="Scripts/require.js"></script>
 </head>
 
 <body>
@@ -38,38 +43,11 @@
         </div>
     </header>
 
-    <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">World</a>
-            <a class="p-2 text-muted" href="#">U.S.</a>
-            <a class="p-2 text-muted" href="#">Technology</a>
-            <a class="p-2 text-muted" href="#">Design</a>
-            <a class="p-2 text-muted" href="#">Culture</a>
-            <a class="p-2 text-muted" href="#">Business</a>
-            <a class="p-2 text-muted" href="#">Politics</a>
-            <a class="p-2 text-muted" href="#">Opinion</a>
-            <a class="p-2 text-muted" href="#">Science</a>
-            <a class="p-2 text-muted" href="#">Health</a>
-            <a class="p-2 text-muted" href="#">Style</a>
-            <a class="p-2 text-muted" href="#">Travel</a>
-        </nav>
-    </div>
-
-    <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-        <div class="col-md-6 px-0">
-            <form role="form" id="form-buscar" action="company.html">
-                <div class="form-group">
-                    <div class="input-group">
-                        <input id="1" class="form-control" type="text" name="search" placeholder="Company name..."/>
-                        <span class="input-group-btn">
-                           <button class="btn btn-success" type="submit">
-                             <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Search</button>
-                        </span>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+    <marquee id="ticker" behavior="scroll" direction="right"
+             onmouseover="this.stop();"
+             onmouseout="this.start();">
+        Hover tozzzz!
+    </marquee>
 
     <div class="row mb-2">
         <div class="col-md-6">
@@ -214,13 +192,20 @@
 
 </main><!-- /.container -->
 
-<footer class="blog-footer">
-    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+<footer>
+    <section>
+        <h3><b>Lykonhold AB</b></h3>
+            Ljungstigen 3<br>
+            box 35252, Växjö<br>
+            info@lykonhold.com
+        </p>
+    </section>
+
 </footer>
 
+<footer class="second">
+    <p>© Copyright 2018 Lykonhold AB. All Rights Reserved.</p>
+</footer>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -235,4 +220,6 @@
     });
 </script>
 </body>
+<script src="sectors.js"></script>
+
 </html>

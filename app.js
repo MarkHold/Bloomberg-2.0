@@ -7,6 +7,6 @@ var app = function (){
 		href.link ="Apple.html";
 	  }
 	}
-}
+};
 
 app();
